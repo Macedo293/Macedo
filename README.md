@@ -10,9 +10,9 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body class="scroll-smooth bg-purple-50 font-sans">
-    <!-- Header/Navbar -->
+    <!-- Header/NaMacedovbar -->
      <!-- Parte do Macedo (Início) -->
-    <header class="sticky top-0 z-50 bg-white shadow-md">
+    <header class="bg-white shadow-md">
         <h1 class="font-bold text-red-600"> Parte do Macedo</h1>
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
@@ -24,7 +24,6 @@
                 <a href="#inicio" class="text-purple-700 hover:text-purple-900 font-medium">Início</a>
                 <a href="#sabores" class="text-purple-700 hover:text-purple-900 font-medium">Sabores</a>
                 <a href="#sobre" class="text-purple-700 hover:text-purple-900 font-medium">Sobre</a>
-                <a href="#contato" class="text-purple-700 hover:text-purple-900 font-medium">Contato</a>
             </nav>
             
             <div class="flex items-center space-x-4">
@@ -52,8 +51,11 @@
     </header>
 
     <!-- Hero Section -->
-    <section id="inicio" class="hero-section flex items-center justify-center text-center text-white">
-        <div class="container mx-auto px-4">
+    <section id="inicio" 
+        class="hero-section flex items-center justify-center text-center text-white bg-cover bg-center"
+        style="background-image: url('caminho/da-sua-imagem.jpg');">
+        
+        <div class="container mx-auto px-4 bg-black/40 p-8 rounded-xl">
             <h1 class="font-pacifico text-4xl md:text-6xl mb-4">Chocolate Puríssimo</h1>
             <p class="text-xl md:text-2xl mb-8">A experiência mais deliciosa em sorvetes artesanais</p>
             <div class="flex flex-col md:flex-row justify-center gap-4">
@@ -66,6 +68,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Featured Section -->
     <section class="py-16 bg-white">
@@ -91,7 +94,7 @@
                         <i class="fas fa-trophy text-3xl text-purple-600"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2 text-purple-800">Qualidade Premium</h3>
-                    <p class="text-gray-600">Reconhecida como a melhor sorveteria artesanal do Brasil por 3 anos consecutivos.</p>
+                    <p class="text-gray-600">Reconhecida como a melhor sorveteria artesanal de Jundiaí! </p>
                 </div>
             </div>
         </div>
