@@ -20,3 +20,38 @@
         .scroll-smooth {
             scroll-behavior: smooth;
         }
+        .linha-vertical{
+            height: 500px;
+            width: 5px;
+            background-color: blueviolet;
+            margin-right: 3%;
+        }
+        .mapa{
+            height: 105%;
+            width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border-radius: 10pt;
+            border:solid 3px rgb(157, 0, 255)
+
+        }
+        .fundo-mapa{
+            background: white;
+        }
+        .logo-gmail{
+            height: 30px;
+            width: 30px;
+        }
+        .logo-fone{
+            height: 30px;
+            width: 30px;
+        }
+        .gps-logo{
+            height: 30px;
+            width: 30px;
+        }
+        .logo-zap{
+            height: 30px;
+            width: 30px;
+        }
