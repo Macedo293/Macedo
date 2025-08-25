@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate purissimo do macedo nicolas gabriel davi</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="Style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body class="scroll-smooth bg-purple-50 font-sans">
     <!-- Header/NaMacedovbar -->
-     <!-- Parte do Macedo (Início) -->
+     <!-- Parte do  (Início) -->
     <header class="bg-white shadow-md">
         <h1 class="font-bold text-red-600"> Parte do Macedo</h1>
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
@@ -24,6 +23,7 @@
                 <a href="#inicio" class="text-purple-700 hover:text-purple-900 font-medium">Início</a>
                 <a href="#sabores" class="text-purple-700 hover:text-purple-900 font-medium">Sabores</a>
                 <a href="#sobre" class="text-purple-700 hover:text-purple-900 font-medium">Sobre</a>
+                <a href="#contato" class="text-purple-700 hover:text-purple-900 font-medium">Sobre</a>
             </nav>
             
             <div class="flex items-center space-x-4">
@@ -53,16 +53,18 @@
     <!-- Hero Section -->
     <section id="inicio" 
         class="hero-section flex items-center justify-center text-center text-white bg-cover bg-center"
-        style="background-image: url('caminho/da-sua-imagem.jpg');">
+        style="background-image: url('file:///C:/Users/Macedo/Desktop/ice-cream-5928048.jpg');">
         
         <div class="container mx-auto px-4 bg-black/40 p-8 rounded-xl">
             <h1 class="font-pacifico text-4xl md:text-6xl mb-4">Chocolate Puríssimo</h1>
             <p class="text-xl md:text-2xl mb-8">A experiência mais deliciosa em sorvetes artesanais</p>
             <div class="flex flex-col md:flex-row justify-center gap-4">
-                <button class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-medium">
+                <button onclick="window.location.href='#sabores'"
+                 class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full text-lg font-medium">
                     Ver Sabores <i class="fas fa-arrow-down ml-2"></i>
                 </button>
-                <button class="bg-white text-purple-800 hover:bg-gray-100 px-6 py-3 rounded-full text-lg font-medium">
+                <button onclick="window.location.href='#contato'"
+                class="bg-white text-purple-800 hover:bg-gray-100 px-6 py-3 rounded-full text-lg font-medium">
                     Fazer Pedido <i class="fas fa-shopping-bag ml-2"></i>
                 </button>
             </div>
@@ -345,10 +347,10 @@
     </section>
     <!-- Parte do Davi (Fim) -->
 
+    <!-- Parte do Nícolas (Início) -->
     <!-- Contato Section -->
-     <!-- Parte do Nícolas (Início) -->
-<h1 class="font-bold text-red-600">Parte do nicolas</h1>
-    <section class="py-16 bg-white"> 
+     <h1 class="font-bold text-red-600">Parte do nicolas</h1>
+    <section id="contato" class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row">
                 <div class="md:w-1/2">
