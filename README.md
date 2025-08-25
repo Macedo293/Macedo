@@ -347,16 +347,16 @@
 
     <!-- Contato Section -->
      <!-- Parte do Nícolas (Início) -->
-     <h1 class="font-bold text-red-600">Parte do nicolas</h1>
-    <section id="nika" class="py-16 bg-white"> 
+<h1 class="font-bold text-red-600">Parte do nicolas</h1>
+    <section class="py-16 bg-white"> 
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row">
-                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                    <h2 class="text-3xl font-bold text-purple-450 mb-4"></h2>
+                <div class="md:w-1/2">
                     
                     <div class="space-y-6">
                         <div class="flex items-start">
                             <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <img src="imagens/gps-logo.png" class="gps-logo">
                                 <i class="fas fa-map-marker-alt text-purple-600"></i>
                             </div>
                             <div>
@@ -367,6 +367,7 @@
                         
                         <div class="flex items-start">
                             <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                <img src="imagens/telefone-logo.png" class="logo-fone">
                                 <i class="fas fa-phone-alt text-purple-600"></i>
                             </div>
                             <div>
@@ -378,6 +379,7 @@
                         
                         <div class="flex items-start">
                             <div class="bg-purple-100 p-3 rounded-full mr-4">
+                            <img src="imagens/gmail-logo.png" class="logo-gmail">
                                 <i class="fas fa-envelope text-purple-600"></i>
                             </div>
                             <div>
@@ -387,9 +389,6 @@
                         </div>
                         
                         <div class="flex items-start">
-                            <div class="bg-purple-100 p-3 rounded-full mr-4">
-                                <i class="fas fa-clock text-purple-600"></i>
-                            </div>
                             <div>
                                 <h4 class="font-semibold text-purple-800">Horário de Funcionamento</h4>
                                 <p class="text-gray-600">Segunda a Sábado: 10h às 22h</p>
@@ -416,32 +415,33 @@
                         </div>
                     </div>
                 </div>
+                <div class="linha-vertical"></div>
                 
                 <div class="md:w-1/2">
                     <h2 class="text-3xl font-bold text-purple-900 mb-6">Envie uma mensagem</h2>
                     <form class="space-y-4">
                         <div>
-                            <label for="nome" class="block text-gray-700 mb-2">Nome</label>
+                            <label for="nome" class="block text-gray-700 mb-1">Nome</label>
                             <input type="text" id="nome" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
                         </div>
                         
                         <div>
-                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <label for="email" class="block text-gray-700 mb-1">Email</label>
                             <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
                         </div>
                         
                         <div>
-                            <label for="telefone" class="block text-gray-700 mb-2">Telefone</label>
+                            <label for="telefone" class="block text-gray-700 mb-1">Telefone</label>
                             <input type="tel" id="telefone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
                         </div>
                         
                         <div>
-                            <label for="mensagem" class="block text-gray-700 mb-2">Mensagem</label>
+                            <label for="mensagem" class="block text-gray-700 mb-1">Mensagem</label>
                             <textarea id="mensagem" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
                         </div>
                         
                         <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-full font-medium w-full">
-                            Enviar Mensagem <i class="fas fa-paper-plane ml-2"></i>
+                            Enviar <i class="fas fa-paper-plane ml-2"></i>
                         </button>
                     </form>
                 </div>
@@ -450,24 +450,12 @@
     </section>
 
     <!-- Mapa -->
-    <div class="h-96 w-full">
-        <img src="file:///C:/Users/EtecVAV/Desktop/mapinha.jfif"
-                width="200%" height="150%" style="border:0;" allowfullscreen="" loading="lazy" class="filter grayscale-20"></iframe>
+    <div class="fundo-mapa">
+        <img src="imagens/localização sorveteria.jpg" class="mapa">
     </div>
-
-    <!-- Newsletter -->
-    <section class="py-16 bg-white-600 text-white">
-        <div class="container mx-auto px-4">
-            <p class="max-w-2xl mx-auto mb-8"></p>
-            
-            <form class="max-w-md mx-auto flex">
-                     <i class="far fa-paper-plane ml-2"></i>
-            </form>
-        </div>
-    </section>
-
+    <p class= "mb-3 bg-white"></p>
     <!-- Footer -->
-    <footer class="bg-purple-900 text-white py-8">
+    <footer class="bg-purple-900 text-white py-7">
         <div class="container mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center mb-4 md:mb-0">
@@ -476,20 +464,22 @@
                 </div>
                 
                 <div class="flex space-x-4 mb-4 md:mb-0">
-                    <a href="#" class="hover:text-purple-300">Termos de Serviço</a>
-                    <a href="#" class="hover:text-purple-300">Política de Privacidade</a>
-                    <a href="#" class="hover:text-purple-300">Trabalhe Conosco</a>
+                    <a  class=":text-purple-300">Termos de Serviço</a>
+                    <a  class=":text-purple-300">Política de Privacidade</a>
+                    <a  class=":text-purple-300">Trabalhe Conosco</a>
                 </div>
                 
                 <div>
-                    <p>© 2025 Chocolate Puríssimo. Todos os direitos reservados.</p>
+                    
+                    <p href="#" class="hover:text-purple-300">© 2025 Chocolate Puríssimo. Todos os direitos reservados.</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Whatsapp Button -->
-    <a href="#" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-green-600 transition-all">
+    <!-- botao do zap -->
+    <a href="#" class="fixed bottom-6 right-6 bg-white text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:bg-blue-300 transition-all">
+        <img src="imagens/logo-do-zap.webp" class="logo-zap">
         <i class="fab fa-whatsapp"></i>
     </a>
     <!-- Parte do Nícolas (Fim) -->
